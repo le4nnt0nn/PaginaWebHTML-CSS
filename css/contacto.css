@@ -1,0 +1,92 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/image.png);
+}
+.wrapped{
+    width: 100%;
+}
+.content{
+    width: 70%;
+    min-height: 800px;
+    background-color: rgba(0, 0, 0, 0.527);
+    margin: auto;
+    justify-content: center;
+}
+.text{
+    width: 70%;
+}
+.text h1{
+    color: #16b7d3b4;
+    margin-left: 57%;
+}
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+    color: white;
+}
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #cccaca73;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.322);
+    font-size: 13px;
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#16b7d35b;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+    resize: none;
+}
+textarea::placeholder{
+    color:rgba(255, 255, 255, 0.322);
+    font-size: 13px;
+}
+ 
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+#mail{
+    margin-left: 41%;
+    color: #fffffff3;
+    background-color:#41c5bfa1;
+}
+#mail img{
+    width: 13px;
+}
+#telef{
+    margin-left: 46%;
+    color: #fffffff3;
+    background-color:#41c5bfa1;
+}
+#telef img{
+    width: 15px;
+}
+iframe{
+    margin-left: 19%;
+}
+h1{
+    color: #16b7d3b4;
+    margin-left: 38%;
+}
